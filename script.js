@@ -1,6 +1,6 @@
 /* GOOGEER Himalayan Shilajit — checkout, Google Sheets order submission, and Snap Pixel tracking. */
 const CONFIG = {
-  PRODUCT_NAME: "Googeer Himalayan Shilajit",
+  PRODUCT_NAME: "Googeer Himalayan Shilajit — GOOGEEER Page",
   SKU: "GOOGEER-SHILAJIT-100G",
   PRODUCT_WEIGHT: "100 غرام",
   COUNTRY: "SA",
@@ -153,7 +153,7 @@ form?.addEventListener("submit", async event => {
     currency: CONFIG.CURRENCY,
     paymentMethod: "COD",
     pageUrl: window.location.href,
-    source: "GOOGEER Shilajit Landing Page",
+    source: "GOOGEEER Landing Page — separate from SHILAJIT",
     snapClickId: new URLSearchParams(window.location.search).get("ScCid") || "",
     utm: Object.fromEntries(new URLSearchParams(window.location.search))
   };
