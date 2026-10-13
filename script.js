@@ -1,7 +1,7 @@
 /* GOOGEER Himalayan Shilajit — checkout, Google Sheets order submission, and Snap Pixel tracking. */
 const CONFIG = {
   PRODUCT_NAME: "Googeer Himalayan Shilajit — GOOGEEER Page",
-  SKU: "GOOGEEER-SHILAJIT-100G",
+  SKU: "SHILAJIT",
   PRODUCT_WEIGHT: "100 غرام",
   COUNTRY: "SA",
   CURRENCY: "SAR",
